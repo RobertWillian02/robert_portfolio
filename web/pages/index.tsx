@@ -1,17 +1,15 @@
-import Head from 'next/head'
-
+import Layout from '../components/Layout'
+import Footer from '../components/Footer'
 export default function Home() {
-  return (
-    <div >
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
-      <main >
-       <h1>oi</h1>
-      </main>
-      
+  return (
+    <div className='h-full sm:h-screen '>
+
+    <Layout>
+    </Layout>
+    <Footer/>
     </div>
   )
 }
+
+//833/468
