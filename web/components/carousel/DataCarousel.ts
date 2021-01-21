@@ -1,15 +1,15 @@
 export const Data = [
     {
-        image: '/img/luffy.jpg'
+        image: '/img/Password.png'
     },
     {
-        image: '/img/pericles.jpg'
+        image: '/img/ProtocolMidnight01 (1).png'
     },
     {
-        image: '/img/rogerXonado.jpg'
+        image: '/img/ProtocolMidnight01.png'
     },
     {
-        image: '/img/foto emo.jpg'
+        image: '/img/ShGame.PNG'
     },
 
 ]

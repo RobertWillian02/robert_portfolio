@@ -9,6 +9,17 @@ const Layout: React.FC = ({children}) => {
   return (
     <div className= "w-6/7  mx-auto px-4 sm:px-6 sm:w-6/7 lg:w-2/3">
       <Header/>
+
+      <div className="w-full flex justify-center pt-10 pb-5">
+        <div className="">
+          <Image src="/img/RobertLogo.png" width={376} height={28.6}></Image>
+        </div>
+        
+      </div>
+        <div className=" pb-10 flex justify-center text-center text-lg sm:text-2xl">
+          <p> Ilustrador Digital • Ilustrador Vetorial • Retrato Digital • Pixel Arte • Game Developer</p>
+        </div>
+
       <div className="sm:flex justify-evenly flex-wrap">
         <GameItem
           href="/"
@@ -19,14 +30,14 @@ const Layout: React.FC = ({children}) => {
 
         <GameItem
           href="/"
-          img="/img/luffy.jpg"
+          img="/img/Password.png"
           title="O samba do pagodeiro"
           genre="Aventura"
           />
 
         <GameItem
           href="/"
-          img="/img/rogerXonado.jpg"
+          img="/img/ProtocolMidnight01 (1).png"
           title="Roger adventuries"
           genre="Aventura"
           />
