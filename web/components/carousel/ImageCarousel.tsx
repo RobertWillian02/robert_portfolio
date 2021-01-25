@@ -30,7 +30,7 @@ export const ImageCarousel = () => {
             {Data.map((slide,index) =>{
                 return(
                     <div className={index=== current ? 'slide active' : 'slide'} key={index}>
-                        {index === current && (<Image src={slide.image} alt="oi" className="rounded-lg" width={220} height={220} />)}
+                        {index === current && (<Image src={slide.image} alt="oi" className="rounded-lg" width={300} height={220} />)}
                         
                     
                     

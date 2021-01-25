@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 
 export default function Footer() {
     return (
@@ -20,21 +21,21 @@ export default function Footer() {
           <p> Ilustrador Digital • Ilustrador Vetorial • Retrato Digital • Pixel Arte • Game Developer</p>
         </div>
         <div className="flex justify-center pb-5">
-        <Link href="/">
-            <a className="hover:bg-blue-200 rounded-full">
+        <Link href="https://www.linkedin.com/in/robert-brant-5b42641a3/">
+            <a target="_blank" className="hover:bg-blue-200 rounded-full">
                 <FaLinkedinIn className="w-12 h-12 px-2"/>
             </a>
         </Link>
         
-        <Link href="/">
-            <a className="hover:bg-blue-200 rounded-full">
-                <FaTwitter className="w-12 h-12 px-2"/>
-            </a>
-        </Link>
 
         <Link href="/">
-            <a className="hover:bg-blue-200 rounded-full">
+            <a target="_blank" className="hover:bg-blue-200 rounded-full">
                 <FaInstagram className="w-12 h-12 px-2"/>
+            </a>
+        </Link>
+        <Link href="https://github.com/RobertWillian02">
+            <a target="_blank" className="hover:bg-blue-200 rounded-full">
+                <FaGithub className="w-12 h-12 px-2"/>
             </a>
         </Link>
         </div>

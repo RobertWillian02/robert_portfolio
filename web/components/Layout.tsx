@@ -22,24 +22,24 @@ const Layout: React.FC = ({children}) => {
 
       <div className="sm:flex justify-evenly flex-wrap">
         <GameItem
-          href="/"
+          href="https://scratch.mit.edu/projects/235764394/"
           img="/img/ShGame.png"
-          title="A busca do Carlos Felino"
-          genre="Emo"
+          title="WHEE1"
+          genre="GENÉRICO"
           />
 
         <GameItem
           href="/"
           img="/img/Password.png"
-          title="O samba do pagodeiro"
-          genre="Aventura"
+          title="Password"
+          genre="Puzzle"
           />
 
         <GameItem
           href="/"
           img="/img/ProtocolMidnight01 (1).png"
-          title="Roger adventuries"
-          genre="Aventura"
+          title="Protocolo Midnight"
+          genre="Investigação"
           />
 
         </div>
